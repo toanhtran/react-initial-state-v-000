@@ -13,7 +13,7 @@ class Address extends React.Component {
   render(){
     return (
       <div className="address">
-      {this.state.fullAddress}
+      {this.state.street}, {this.props.city}
       </div>
     );
   }
